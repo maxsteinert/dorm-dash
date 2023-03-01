@@ -21,6 +21,25 @@
                 .header h1 {
                     font-size: 40px;
                 }
+                .header input {
+                    width: 70%;
+                    padding: 10px 10px;
+                    margin: 10px 0;
+                    border: 2px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+                .header label {
+                    font-size: 15px;
+                }
+                .header select {
+                    width: 70%;
+                    padding: 10px 10px;
+                    margin: 10px 0;
+                    border: 2px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
                 .footer {
                     padding: 20px;
                     text-align: right;
@@ -32,7 +51,7 @@
         <div class="backButton">
             <button onclick="window.location.href='https://princetondormdash.com/index.html'">Back to Home</button>
         </div>
-            <div class="header">
+        <div class="header">
             <h1>Order Form</h1>
             <form action="/action_page.php">
                 <label for="Name">Name:</label> <br>
@@ -45,7 +64,7 @@
                     <option value="studio34">Studio '34</option>
                     <option value="ustore">U Store</option>
                 </select> <br> <br>
-                <input type="submit" value="Submit"> <br>
+                <input type="submit" name="formSubmit" value="Confirm Order" style="background-color:orange;"> <br>
             </form>
         </div>
         <div class="footer">
