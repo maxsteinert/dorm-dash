@@ -27,21 +27,18 @@
     <body>
         <div class="header">
             <h1>Order Form</h1>
-            <form>
-                <label for="Name">Name:</label>
-                <br>
-                <input type="text" name="Name" placeholder="First Last">
-                <br>
-                <label for="Dorm Room">Dorm Room:</label>
-                <br>
-                <input type="text" name="Dorm Room" placeholder="Baker Hall, 222">
-                <br>
-                <label for="Store">Choose a Store:</label>
-                <br>
+            <form action="/action_page.php">
+                <label for="Name">Name:</label> <br>
+                <input type="text" name="Name" placeholder="First Last"> <br> <br>
+                <label for="Dorm Room">Dorm Room:</label> <br>
+                <input type="text" name="Dorm Room" placeholder="Baker Hall, 222"> <br> <br>
+                <label for="Store">Choose a Store:</label> <br>
                 <select id="Store" name="Store">
                     <option value="wawa">Wawa</option>
                     <option value="studio34">Studio '34</option>
                     <option value="ustore">U Store</option>
+                </select> <br> <br>
+                <input type="submit" value="Submit"> <br>
             </form>
         </div>
         <div class="footer">
