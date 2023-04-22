@@ -47,26 +47,39 @@
                 }
             </style>
     </head>
+
     <body>
         <div class="backButton">
             <button onclick="window.location.href='https://princetondormdash.com/index.html'">Back to Home</button>
         </div>
+
         <div class="header">
             <h1>Order Form</h1>
-            <form action="/action_page.php">
+            <form action="process-order-form.php" method="post">
                 <label for="Name">Name:</label> <br>
-                <input type="text" name="Name" placeholder="First Last"> <br> <br>
+                <input type="text" id="name" name="name" placeholder="First Last">
+                
+                <br>
+
                 <label for="Dorm Room">Dorm Room:</label> <br>
-                <input type="text" name="Dorm Room" placeholder="Baker Hall, 222"> <br> <br>
+                <input type="text" id="Dorm Room" name="dorm" placeholder="Baker Hall, 222">
+                
+                <br>
+
                 <label for="Store">Choose a Store:</label> <br>
-                <select id="Store" name="Store">
+                <select id="Store" name="store">
                     <option value="wawa">Wawa</option>
                     <option value="studio34">Studio '34</option>
                     <option value="ustore">U Store</option>
-                </select> <br> <br>
-                <input type="submit" name="formSubmit" value="Confirm Order" style="background-color:orange;"> <br>
+                </select>
+                
+                <br>
+
+                <button>Submit</button>
+
             </form>
         </div>
+
         <div class="footer">
             <p>Brought to you by Crosstein Inc.</p>
         </div>
