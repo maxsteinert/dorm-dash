@@ -12,4 +12,5 @@ if (! $room) {
     die("You must enter a room number");
 }
 
-var_dump($name, $room, $store);
+
+$host = "hostinger";
