@@ -12,11 +12,10 @@ if (! $room) {
     die("You must enter a room number");
 }
 
-
-$host = "localhost";
+$host = "127.0.0.1:3306";
 $dbname = "u507831009_order_db";
 $username = "u507831009_maxsteinert";
-$password = "Ves6zJ]Pw/8";
+$password = "I|PF!~=1Fn";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
